@@ -595,13 +595,10 @@ body {
   color: #F1F1F1;
 }
 
-.video-block__container {
-  position: relative;
-}
-
 .video-parallax {
   position: absolute;
   top: 35%;
+  left: 0;
 }
 
 .video-parallax__items {
@@ -644,11 +641,6 @@ body {
   -webkit-text-stroke: 2px #F1F1F1;
 }
 
-.video-parallax__item-first {
-  top: 35%;
-  left: 0;
-}
-
 .video-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -668,6 +660,12 @@ body {
 
 .video-info__frame img {
   max-width: 100%;
+}
+
+.video-info__frame video {
+  width: 438px;
+  height: 584px;
+  z-index: 5;
 }
 
 .video-info__btn .btn-icon {
