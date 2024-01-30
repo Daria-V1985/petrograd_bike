@@ -668,22 +668,17 @@ body {
   z-index: 5;
 }
 
+.video-info__btn {
+  position: relative;
+}
+
 .video-info__btn .btn-icon {
-  position: absolute;
-  width: 8.4375rem;
-  height: 8.4375rem;
-  bottom: -4rem;
-  right: -3rem;
   z-index: 10;
   color: #192632;
   stroke: #192632;
   stroke-width: 0.5;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
-  -webkit-animation: 5s circle infinite;
-          animation: 5s circle infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
 }
 
 .video-info__btn .btn-icon:active {
@@ -691,6 +686,24 @@ body {
   color: #B90303;
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
+}
+
+.video-info__btn .play {
+  position: absolute;
+  bottom: -2.3125rem;
+  right: -2.3125rem;
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.video-info__btn .text {
+  position: absolute;
+  bottom: -3.5rem;
+  right: -3.5rem;
+  width: 8.4375rem;
+  height: 8.4375rem;
+  -webkit-animation: 5s circle linear infinite;
+          animation: 5s circle linear infinite;
 }
 
 .product-image {
